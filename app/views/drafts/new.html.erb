@@ -1,11 +1,11 @@
 <%= form_for(@draft) do |f| %>
   <div class="field">
     <h1>
-      <%= f.label :name, 'Qual o nome do seu evento?' %>
+      <%= f.label :name %>
     </h1>
     <%= f.text_field :name, autofocus: true %>
   </div>
   <div class="actions">
-    <%= f.submit 'Prosseguir' %>
+    <%= f.submit t(:next) %>
   </div>
 <% end %>

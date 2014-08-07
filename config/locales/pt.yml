@@ -1,0 +1,6 @@
+pt:
+  next: 'Prosseguir'
+  helpers:
+    label:
+      draft:
+        name: 'Qual o nome do seu evento?'
