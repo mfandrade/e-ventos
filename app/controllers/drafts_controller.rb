@@ -21,6 +21,24 @@ class DraftsController < ApplicationController
   def edit
   end
 
+  # GET /drafts/1/date
+  def date
+  end
+
+  # GET /drafts/1/capacity
+  def capacity
+  end
+
+  # GET /drafts/1/local
+  def local
+  end
+
+  # GET /drafts/1/speakers
+  def speakers
+  end
+
+  # GET /drafts/1/
+
   # POST /drafts
   def create
     @draft = Draft.new(draft_params)
